@@ -1,0 +1,19 @@
+@page { size: 6in 9in; margin: 0.75in 0.7in 0.8in 0.7in; }
+body { font-family: Georgia, "Times New Roman", serif; font-size: 11pt; line-height: 1.5; color: #222; max-width: 40em; margin: auto; padding: 0 16px; }
+h1 { font-size: 1.7em; color: #1f4e79; page-break-before: always; break-before: page; margin-top: 0; padding-top: 0.5em; border-bottom: 2px solid #9dc3e6; }
+h2 { font-size: 1.25em; color: #2e75b6; margin-top: 1.4em; page-break-after: avoid; }
+h3 { font-size: 1.05em; color: #333; page-break-after: avoid; }
+table { border-collapse: collapse; width: 100%; font-size: 0.85em; margin: 1em 0; page-break-inside: auto; }
+th, td { border: 1px solid #bbb; padding: 4px 6px; vertical-align: top; }
+th { background: #deebf7; }
+tr { page-break-inside: avoid; }
+blockquote { background: #f2f7fc; border-left: 4px solid #2e75b6; margin: 1em 0; padding: 0.5em 1em; }
+ul.task-list { list-style: none; padding-left: 1em; }
+.title-page { text-align: center; page-break-after: always; padding-top: 2.2in; }
+.title-page .t { font-size: 2.6em; color: #1f4e79; font-weight: bold; }
+.title-page .s { font-size: 1.15em; margin-top: 1em; color: #444; }
+.title-page .a { margin-top: 2.5em; font-size: 1.2em; }
+nav#TOC { page-break-after: always; }
+nav#TOC ul { list-style: none; padding-left: 1em; }
+nav#TOC > ul > li { margin-top: 0.3em; }
+header#title-block-header { display: none; }
